@@ -13,6 +13,13 @@ Integrantes:
 - Thaysa Borges de Lima Santos
 - Rafaela Clementino Pereira Caro
 
+
+## ${\color {#945044} Ciclo \ de \ Desenvolvimento }$
+
+![Ciclo-desenvolvimento](https://github.com/user-attachments/assets/66f3e616-d035-4e0a-bfa5-2a8e0e754cd5)
+
+
+
 ## Distribuição dos exercícios para a equipe:
 
 ![image](https://github.com/user-attachments/assets/d03e5694-2241-4d52-b7fe-bfe50534d959)
