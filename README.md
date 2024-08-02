@@ -14,11 +14,6 @@ Integrantes:
 - Rafaela Clementino Pereira Caro
 
 
-## ${\color {#945044} Ciclo \ de \ Desenvolvimento }$
-
-![Ciclo-desenvolvimento](https://github.com/user-attachments/assets/66f3e616-d035-4e0a-bfa5-2a8e0e754cd5)
-
-
 
 ## Distribuição dos exercícios para a equipe:
 
