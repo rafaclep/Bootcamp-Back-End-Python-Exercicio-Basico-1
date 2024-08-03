@@ -83,14 +83,14 @@ def obter_renda() -> float:
     Retorna o valor da renda válido.
     '''
     while True:
-        renda_informada =  input_float('\tRenda bruta R$: ') 
+        renda_informada =  input_float('\tRenda bruta R$: ')
         if renda_informada > 0:
             return renda_informada
         print(bright_vermelho('\tValor da renda inválida. Entre com um valor acima de zero.'))
 
 def calcular_salario_liquido(renda: float, percentual: float) -> float:
     '''
-    Calcula o salario liquido.
+    Calcula o salário liquido.
     Retorna o salário.
     '''
     calculo = percentual * renda
@@ -123,12 +123,12 @@ def main() -> None:
     '''
     limpar_console()
     exibir_valores_de_percentual_imposto_de_renda()
-    print('\n\tInforme sua renda bruta para saber seu salário liquido.\n')
+    print('\n\t***  Informe sua renda bruta para saber seu salário liquido.  ***\n')
     renda_informada = obter_renda()
     resultado = calcular_salario_liquido_por_faixa_salarial(renda_informada)
-    print(verde('\n\t############## Resultado #################'))
-    print(verde(f"\n\t\tSalário líquido {formatar_valor_monetario(resultado)}"))
-    print(verde('\n\t##########################################'))
+    print(verde('\n\t............... Resultado ....................'))
+    print(f"\n\t\tSeu salário líquido é {formatar_valor_monetario(resultado)}")
+    print(verde('\n\t..............................................'))
 
 if __name__ == '__main__':
     main()
