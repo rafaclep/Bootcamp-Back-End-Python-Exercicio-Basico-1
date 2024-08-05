@@ -16,3 +16,4 @@ pai = input ('Qual é o nome do seu pai? ')
 #Mensagem amigável
 
 print(f'Obrigada {nome}! Agora já sei que você tem {idade} anos, sua mãe chama {mae} e seu pai chama {pai}! Parabéns! Então pode escorregar!')
+
